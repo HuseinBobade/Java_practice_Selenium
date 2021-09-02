@@ -31,6 +31,14 @@ public class PageNavigateMethods {
 		
 		driver.navigate().refresh();
 		
+// What is the difference between get() & navigate.to()?--->No difference
+// Both methods used to for opening URL in the browser. There is No difference between them
+// They are synonyms for one another
+// Only difference can found in the parameters 
+// get() --accepts only one string parameter
+// navigate.to() --accepts string parameter & URL instance as parameter		
+		 
+		
 		
 		driver.quit();
 		
